@@ -32,9 +32,11 @@ Perform Exploratory Data Analysis (EDA) to:
 #### 4 categories showed the highest average discounts, often above 50%. This suggests intense competition or an aggressive pricing strategy in those categories.
 
 
+
 ### 2. Number of Products Listed Under Each Category
 ![2 product listed under](https://github.com/user-attachments/assets/970c43cd-f6cb-4044-b2f9-2d2874443b33)
 #### Categories like Electronics, Computers & Accessories, and Home and kitchen had the largest number of products. This indicates a high supply and vendor concentration in these product types.
+
 
 
 ### 3. Total Number of Reviews per Category
@@ -42,9 +44,26 @@ Perform Exploratory Data Analysis (EDA) to:
 #### The Electronics category had the highest total review count. Higher reviews likely reflect greater sales or longer presence on the platform.
 
 
+
+### 4. Products with the Highest Average Ratings
+#### Some products scored as high as 4.8 or 5.0, mostly in the Tech Accessories category. These top-rated products often had fewer reviews, suggesting early high satisfaction.
+
+
+
 ### 5. Average Actual Price vs Discounted Price by Category
 ![5 actual vs discounted](https://github.com/user-attachments/assets/a0c44834-0ed3-4240-a4f1-5ecf3aaa6e1c)
 #### Average actual prices were significantly higher than discounted prices in most categories. Suggests reliance on heavy discounting to attract buyers, especially in tech-related products.
+
+
+
+### 6. Products with the Highest Number of Reviews
+#### A few standout products like electronics, computer & accessories, home & kitchen  had review counts above 90,000, showing exceptional popularity or longevity. These products can be used as benchmarks for future listings.
+
+
+
+### 7. Products with a Discount of 49% or More
+#### Over 49% of products in the dataset had a discount ≥ 50%. Discounts are a key strategy for conversion on Amazon, especially in electronics.
+
 
 
 ### 8. Distribution of Product Ratings
@@ -52,9 +71,11 @@ Perform Exploratory Data Analysis (EDA) to:
 #### The most common product rating was 4.0, followed by 4.2 and 3.9. Indicates general customer satisfaction but also points to areas of improvement.
 
 
+
 ### 9. Total Potential Revenue by Category
 ![9 potential revenue](https://github.com/user-attachments/assets/64d98456-3bdb-4bc8-867f-776019adf554)
 #### Categories like Electronics, Computer and Accessories showed the highest revenue potential. These are strategic areas for sellers and Amazon to focus on for profitability.
+
 
 
 ### 10. Number of Unique Products per Price Range Bucket
@@ -62,7 +83,34 @@ Perform Exploratory Data Analysis (EDA) to:
 #### Majority of products fell in the ₹200–₹500 range. Indicates Amazon’s customer base is price-sensitive and prefers mid-range pricing.
 
 
+
 ### 11. Relationship Between Rating and Discount
 ![11 rating vs discount](https://github.com/user-attachments/assets/c701bb1b-fed1-4e79-bbf7-320d9f86b8bc)
 #### No strong correlation was observed between discount percentage and product rating. This suggests discounting doesn’t necessarily influence how customers rate the product, quality matters more.
 
+
+
+### 12. Number of Products with Fewer Than 1,000 Reviews
+#### About 70–78% of products had under 1,000 reviews. Suggests most products are new, under-promoted, or lower in demand.
+
+
+
+### 13. Categories with Products Having the Highest Discounts
+#### Electronics, Home & Kitchen  and Computer & Accesories consistently had the steepest discounts. May reflect market saturation or an attempt to phase out stock.
+
+
+
+### 14. Top 5 Products Based on Rating × Number of Reviews
+##### 1. Amazon Basic Cable  2. Boat BassHead  3. Redmi 9A  4. Pigeon Polypropylene  5. San Disk CruzerBlade Flash
+#### The top 5 products had both high ratings and large review counts, creating a high combined score (rating score). These are Amazon's "golden products" — highly rated and trusted by large numbers of buyers.
+
+
+
+## 📌 Summary
+#### This analysis confirms the importance of pricing, discount strategy, and review management in driving success on Amazon. Sellers should focus on:
+
+#### Offering competitive discounts without compromising quality.
+
+#### Encouraging reviews to improve product visibility.
+
+#### Targeting high-revenue categories like Electronics and Tech Accessories.
